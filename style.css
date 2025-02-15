@@ -1,3 +1,39 @@
-html {
-    background-color: azure;
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Monsterrat", sans-serif;
+}
+
+.section-with-form {
+    display: flex;
+    height: 100vh;
+}
+
+.background-with-picture {
+    width: 40%;
+    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.odin-logo-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: fit-content;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-logo-background img {
+    display: inline-block;
+    width: auto;
+    height: 70px;
 }

@@ -5,6 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <section class="section-with-form">
+      <div class="background-with-picture">
+        <div class="odin-logo-background">
+          <img src="./odin-lined.png" alt="odin logo" />
+          ODIN
+        </div>
+      </div>
+      <div class="form-right">
+        <form action="#" method="post">
+          <div class="row">
+            <label for="firstname">First name:</label>
+            <input type="text" name="firstname" id="firstname" />
+            <label for="lastname">Last name:</label>
+            <input type="text" name="lastname" id="lastname" />
+          </div>
+          <div class="row">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+            <label for="phone">Phone number:</label>
+            <input type="tel" name="phone" id="phone" />
+          </div>
+          <div class="row">
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass" />
+            <label for="confirmpass">Confirm password:</label>
+            <input type="password" name="comfirmpass" id="confirmpass" />
+          </div>
+          <button type="submit">Create account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
