@@ -23,25 +23,39 @@
       <div class="form-right">
         <form action="#" method="post">
           <div class="row">
-            <label for="firstname">First name:</label>
-            <input type="text" name="firstname" id="firstname" />
-            <label for="lastname">Last name:</label>
-            <input type="text" name="lastname" id="lastname" />
+            <div class="col">
+              <label for="firstname">First name:</label>
+              <input type="text" name="firstname" id="firstname" />
+            </div>
+            <div class="col">
+              <label for="lastname">Last name:</label>
+              <input type="text" name="lastname" id="lastname" />
+            </div>
           </div>
           <div class="row">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" />
-            <label for="phone">Phone number:</label>
-            <input type="tel" name="phone" id="phone" />
+            <div class="col">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="col">
+              <label for="phone">Phone number:</label>
+              <input type="tel" name="phone" id="phone" />
+            </div>
           </div>
           <div class="row">
-            <label for="pass">Password:</label>
-            <input type="password" name="pass" id="pass" />
-            <label for="confirmpass">Confirm password:</label>
-            <input type="password" name="comfirmpass" id="confirmpass" />
+            <div class="col">
+              <label for="pass">Password:</label>
+              <input type="password" name="pass" id="pass" />
+            </div>
+            <div class="col">
+              <label for="confirmpass">Confirm password:</label>
+              <input type="password" name="comfirmpass" id="confirmpass" />
+            </div>
           </div>
-          <button type="submit">Create account</button>
-          <p>Already have an account? <a href="#">Log in</a></p>
+          <div class="row">
+            <button type="submit">Create account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
         </form>
       </div>
     </section>

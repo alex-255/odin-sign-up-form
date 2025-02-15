@@ -1,39 +1,92 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Monsterrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Monsterrat", sans-serif;
 }
 
 .section-with-form {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 .background-with-picture {
-    width: 40%;
-    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  width: 40%;
+  background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .odin-logo-background {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    height: fit-content;
-    color: white;
-    text-align: center;
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: fit-content;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .odin-logo-background img {
-    display: inline-block;
-    width: auto;
-    height: 70px;
+  display: inline-block;
+  width: auto;
+  height: 70px;
+}
+
+.form-right {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.row:last-of-type {
+  flex-direction: column;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: grey;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  border: 1px dotted gray;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid green;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+button {
+  border: 1px solid gray;
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  width: fit-content;
 }
